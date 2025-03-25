@@ -22,7 +22,7 @@ class Student extends Person{
 			return false;
 		
 	}
-	public String getString(){
+	public String toString(){
 		return String.format("Student Name: %s, Student Roll Number: %d, Student Age: %d",this.getName(),this.rollNo,this.getAge());
 }
 

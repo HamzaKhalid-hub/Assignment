@@ -22,6 +22,6 @@ public class ClassRoom{
 	}
 	public String toString(){
 
-		return String.format("Class Name: %d,Class Teacher: %s ",className,teacher);
+		return String.format("Class Name: ,Class Code: %s,Class Teacher: %s ",className,classCode,teacher);
 }
 }

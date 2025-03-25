@@ -2,7 +2,7 @@ package SchoolManagmentSystem;
 class Principal extends Person{
 	private String experience;
 
-	public Principal(String name,int age,String experience){
+	public Principal(String name, int age, String experience){
 		this.setName(name);
 		this.setAge(age);
 		this.setExperience(experience);
@@ -17,7 +17,7 @@ class Principal extends Person{
 	}
 
 
-	public String getString(){
+	public String toString(){
 		return String.format("Principal Name: %s, Principal Age: %d, Principal Experience: %s",this.getName(),this.getAge(),this.experience);
 }
 
